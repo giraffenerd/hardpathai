@@ -1,3 +1,5 @@
+6/18/2026
+
 Takes long time to be start the day1, got busy with the new job.
 
 ##Day1: Purchase Deep Learning Andrew Ng Coursea, lets start the first day, can't go wrong with Andrew Ng
@@ -30,7 +32,7 @@ Takes long time to be start the day1, got busy with the new job.
 
     I don't understand /todo here
 
-    random thought, How Timbre is digitalized?
+    `random thought, How Timbre is digitalized?`
 
     Pitch = main frequency
     Loudness = amplitude
@@ -89,24 +91,22 @@ Takes long time to be start the day1, got busy with the new job.
     middle → around 0.5
     very positive → almost 1
 
-         It is good when the output means probability.
+    It is good when the output means probability.
 
-         Example:
+    Example:
 
-         Is this email spam?
+    Is this email spam?
 
-         model output = 0.91
-         meaning: 91% likely spam
+    model output = 0.91
+    meaning: 91% likely spam
 
-         So sigmoid is often used in the last layer for binary classification:
+    So sigmoid is often used in the last layer for binary classification:
 
-         cat or not cat
-         spam or not spam
-         disease or no disease
+    cat or not cat
+    spam or not spam
+    disease or no disease
 
-         Problem: sigmoid can become “too flat” near 0 or 1, so learning becomes slow.
-
-         2. ReLU
+    Problem: sigmoid can become “too flat” near 0 or 1, so learning becomes slow. 2. ReLU
 
     ReLU means:
 
@@ -171,5 +171,29 @@ Takes long time to be start the day1, got busy with the new job.
 
     ReLU = used inside the brain of the model
     Sigmoid = used at the end when you want probability
+
+    `Random thought, Compute Power is so strong, Mahcine Learning development could have faster iteration, what if we ask LLM to build Machine Learning Code (identify feature, build algorithm, fast iteration), then we can replace LLM with Machine learning on many LLM application using cheaper solution. Would it be possible the world is change from ML=>LLM=>ML`
+
+A new Name: Geoggery Hinton
+
+Backpropagation
+
+Forward pass:
+Use weights to make prediction.
+
+Loss:
+Measure how wrong the prediction is.
+
+Backprop:
+Compute how responsible each weight is for the loss.
+
+Gradient descent:
+Change weights to reduce future loss.
+
+Very simple version:
+
+Backpropagation = blame assignment for neural network weights.
+
+Man, I totally forgot what I learn in college, GRADIENT
 
 Easy!!!
