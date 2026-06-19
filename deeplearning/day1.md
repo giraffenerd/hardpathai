@@ -287,4 +287,36 @@ backprop 1986, not that old, huh
 
 Boltzmann machine
 
-Easy!!!
+restricted Boltzmann machine
+Derestricted Boltzmann machine
+
+Rabbit hole again
+
+inference, new word..
+
+Bayes paper 1993， Bayesien Learning
+
+back to ReLu Paper
+
+Synaptic Input new word
+
+Jimmy Ba
+
+Capsule of neural network
+
+discriminative learning
+
+Geoffery Hinton is interview went too far and deep for me, i may go back to watch this again after i finish this course.
+
+One advice from Geffory, 'read a little bit literature, follow your intuition, notice something wrong'
+myself, why softmax...
+
+RMS
+
+WOOC
+
+EM
+
+restricted Boltzmann machine
+
+Finish week one Easy!!!
