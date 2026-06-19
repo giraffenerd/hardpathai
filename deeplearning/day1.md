@@ -190,10 +190,101 @@ Compute how responsible each weight is for the loss.
 Gradient descent:
 Change weights to reduce future loss.
 
+An activation function is a small function inside a neural network that decides how much signal a neuron should pass forward.
+
+ReLU is very common:
+
+ReLU(x) = max(0, x)
+
+Sigmoid squeezes any number into between 0 and 1:
+
+sigmoid(x) = 1 / (1 + e^-x)
+
+Imagine a neuron is asking:
+
+Should I activate or not?
+How strongly should I pass this information?
+
+Function Output Common use
+ReLU 0 to infinity Hidden layers
+Sigmoid 0 to 1 Binary probability
+Tanh -1 to 1 Older RNNs
+Softmax probabilities adding to 1 Multi-class classification
+
+`YOYOYO Softmax it is very fast`
+
+Softmax is an activation function that turns a list of numbers into probabilities.
+
+It is usually used at the last layer of a neural network for multi-class classification.
+
+Example: classify an image as:
+
+cat, dog, bird
+
+The neural network may output raw scores called logits:
+
+cat: 2.0
+dog: 1.0
+bird: 0.1
+
+These numbers are not probabilities yet. Softmax converts them into probabilities like:
+
+cat: 0.66
+dog: 0.24
+bird: 0.10
+
+They always add up to 1:
+
+0.66 + 0.24 + 0.10 = 1
+
+So the model predicts:
+
+cat
+
+because cat has the highest probability.
+
+The formula is:
+
+softmax(x_i) = e^(x_i) / sum(e^(all x))
+
+Meaning each score is exponentiated, then divided by the total.
+
+Intuition
+
+Softmax asks:
+
+Among all possible classes, how confident am I in each one?
+
+For example:
+
+Raw scores: [5, 2, 1]
+Softmax: [0.94, 0.05, 0.01]
+
+The biggest score becomes the biggest probability.
+
+Difference from sigmoid
+
+Sigmoid is usually for yes/no:
+
+dog or not dog
+
+Softmax is for choosing one among many:
+
+cat vs dog vs bird
+
+So:
+
+Sigmoid → binary probability
+Softmax → multi-class probabilities
+
 Very simple version:
 
 Backpropagation = blame assignment for neural network weights.
 
 Man, I totally forgot what I learn in college, GRADIENT
+
+backprop 1986, not that old, huh
+
+Boltzmann machine
 
 Easy!!!
