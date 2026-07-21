@@ -1,1 +1,1 @@
-﻿# I am a 10+ years front end developer, learning ai from today!
+
